@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+body{
+    background: black;
+}
+#linkMenu{
+    color: white;
+    transition: 1s;
+    font-size: 4rem;
+    text-decoration: none;
+}
+#linkMenu:hover{
+    position: relative;
+    transition: 1s;
+    font-size: 4.5rem;
+    text-decoration: none;
+}
+.escalarImagen{
+    transform: scale(1.1,1.1);
+    margin: 10px;
+}
+.menuHover:hover{
+	transition: 1s;
+	transform: scale(1.1);
+}
+.imgRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 70px;
+    list-style: none;
+}
+.nav-item:hover{
+    transition: 1s;
+    background-color: rgb(134, 0, 0);
+}
+.escalarImagen{
+    margin: 10px;
+    animation-name: scale;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+#sectionMenú{
+    background-color: black;
+    justify-content: center;
+}
+legend{
+    margin: 8px;
+}
+p{
+    margin: 10px;
+}
+.margenButton{
+    margin: 8px;
+}
+#footer{
+    margin: 50px;
+}
